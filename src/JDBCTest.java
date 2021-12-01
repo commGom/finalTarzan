@@ -28,6 +28,12 @@ public class JDBCTest {
             System.out.println(String.format("테스트 결과 : %s, %s, %s, %d",memId,memPw,nickName,score));
         } catch (SQLException throwables) {
             throwables.printStackTrace();
+        }finally {
+                try {
+                    if (connection!=null)  connection.close();
+                } catch (SQLException throwables) {
+                    throwables.printStackTrace();
+                }
         }
     }
 }
