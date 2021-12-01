@@ -32,22 +32,6 @@ public class ModifyPage extends JFrame {
     private JTextField ID_textField;
 
     /**
-     * Launch the application.
-     */
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    ModifyPage frame = new ModifyPage();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
-
-    /**
      * Create the frame.
      */
     // 6. 회원정보수정

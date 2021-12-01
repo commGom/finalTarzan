@@ -34,22 +34,6 @@ public class RankPage extends JFrame {
     private JTable rankTable;
 
     /**
-     * Launch the application.
-     */
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    RankPage frame = new RankPage();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
-
-    /**
      * Create the frame.
      */
     // 5. 랭크확인페이지

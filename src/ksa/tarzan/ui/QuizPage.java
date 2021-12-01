@@ -32,21 +32,7 @@ public class QuizPage extends JFrame {
     private char answerYN;
     private String alertMessage;
 
-    /**
-     * Launch the application.
-     */
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    QuizPage frame = new QuizPage();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
+
 
     /**
      * Create the frame.
